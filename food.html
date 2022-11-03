@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav>
+        <h1> Cure Food </h1>
+    <ul> 
+        <li class="a1"> <a href="#"> Home</a>
+            
+        <li class="a2 a1"> <a href="#">About</a></li>
+        <li class="a2 a1 a3"> <a href="#">Menu</a></li>
+           <button onclick="myFunction()">MENU</button>
+            <p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Noodles<br> Maggi <br>Ice cream";
+}
+</script>
+         <li class="a4 a1 a2 a3"> <a href="#">Order</a></li>
+        <li class="a5 a1 a2 a3 a4"> <a href="#">Contact</a></li>
+    </ul>
+
+    <button> View More</button>
+</nav>   
+
+
+<div class="container">
+        <div class="text">                           
+            <h1> Freshness <br>In Every Bite...</h1>
+            
+           
+        </div>
+        <img src=" https://th.bing.com/th/id/R.e2b1207502e2f6c06e5f8b564dc86820?rik=AqBVuvl8xdYSMA&riu=http%3a%2f%2fwww.byakapov.com%2fwp-content%2fuploads%2f2016%2f04%2fherring-food-beautiful-plate.jpg&ehk=vlK%2fga7rM9VP6tuC0zh9S2HDpkjchNiPm%2fCWNYqkQvc%3d&risl=&pid=ImgRaw&r=0 "  alt="food image">
+    </div>
+<section class="order" id="order">
+    <h1 class="heading"> <span><h2> Order Now</h2></span></h1>
+    <div class="row">
+        <div  class="image">
+            <img src=" https://pikwizard.com/photos/cf27f8938301b0b29b0fd9a0a516b7aa-m.jpg " alt="image of food">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>  
+            
+            <div class="inputbox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Food Name">
+            </div>  
+
+            <textarea placeholder="address" name="" id=""  cols="30" rows="10"></textarea>                
+            <input type="submit"  value="order now"  class="btn">
+        </div>
+            
+        </form>
+    </div>
+</section>    
+    </body>
+</html>

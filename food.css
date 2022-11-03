@@ -1,0 +1,169 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+nav{ display:flex;
+justify-content: center;
+justify-content: space-around;}
+
+
+ul{display: flex;
+}
+
+.a1{
+    list-style: none;
+    margin-inline: 30px;
+    font-size: 23px;
+    text-decoration: none;
+     color: white;
+     display: block;
+}
+
+
+
+
+
+
+ul li a{background-color: red;
+
+    color:white;
+    list-style: none;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    display: block;
+
+}
+
+ul li a:hover{
+    border-bottom: 2px solid white;
+    background-color:transparent;
+}
+
+
+nav button{
+      width: 110px;
+      height: 36px;
+      background-color: rgb(169, 9, 9);
+      color: white;
+      font-size: 19px;
+      margin-top: 5px;
+}
+
+nav h1{
+     font-size: 45px;
+     color: red;
+     border-bottom: 4px solid red;
+     border-radius: 10px;
+     margin-top: 3px;
+}
+
+.container{
+    display: flex;
+     justify-content:center;
+     justify-content: space-around;
+}
+
+.container .text{
+     font-size:49px;
+     margin-left: 20px;
+}
+
+.container img{
+    width: 550px;
+}
+
+
+.container button:hover{
+      border: 2px solid red;
+      background-color: transparent;
+      cursor:pointer;
+     
+}
+#demo button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    cursor:pointer;
+     
+}
+
+#demo button{background-color: red;
+
+    color:white;
+    list-style: none;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    display: block;
+}
+
+
+.container img:hover{
+     transform: scale(1.04);
+}
+
+@media screen and(max-width:1000px){
+       .container{
+           grid-template-columns:repeat(2,1fr);
+       }
+}
+
+.order .row{
+    padding: 2rem;
+    background:black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.order .row .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.order .row .inputbox input,.order .row textarea {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+border-radius: .5rem;
+width: 49%;}
+
+.order .row form textarea{
+    width: 100%;
+    resize: none;
+    height: 15rem;
+}
+
+.order .row .btn{
+    font-size: large ;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.order .row .btn:hover{
+    background: red;
+}
+
+.heading{
+     text-align: center;
+
+}
+
+
+
+
+ 
